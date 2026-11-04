@@ -1,5 +1,7 @@
 # CargoFlow
 
+**Resumen técnico:** prototipo de flujos operativos e inspecciones en HTML, CSS y JavaScript. Arquitectura de aplicación estática en el navegador, sin backend ni base de datos de servidor; persiste en localStorage. Incluye configuración de etapas, validaciones e historial con datos ficticios.
+
 **Flujos operativos configurables para empezar con inspecciones y explorar nuevos sectores.**
 
 Prototipo interactivo en español que permite probar una misma base de gestión en inspecciones de carga, alquiler de vehículos y mantenimiento técnico. Desarrollado como proyecto de portafolio de **Darío Idrovo**.
