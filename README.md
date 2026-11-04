@@ -26,7 +26,7 @@ python3 -m http.server 8000 --bind 127.0.0.1 --directory dist
 ```
 
 En Windows puede usarse `py -m http.server 8000 --bind 127.0.0.1 --directory dist`.
-Abre http://127.0.0.1:8000. El repositorio es privado: necesitarás acceso a tu cuenta para clonarlo.
+Abre http://127.0.0.1:8000. El código del repositorio es público.
 
 ## Probar el flujo principal
 
@@ -60,3 +60,13 @@ El servidor local no tiene autenticación y debe mantenerse en loopback. El acce
 ## Autor
 
 [Darío Idrovo](https://github.com/idrovodario16)
+
+
+## Demo para GitHub Pages
+
+Prototipo completo en el navegador con datos ficticios y localStorage. No requiere cuenta ni backend.
+
+**Publicación:** archivos y flujo de despliegue preparados. La URL prevista es https://idrovodario16.github.io/cargoflow/; solo estará disponible cuando GitHub Pages esté activado y el despliegue termine correctamente.
+
+Para activarla: **Settings → Pages → Build and deployment → Source: GitHub Actions**. Después ejecuta **Actions → Publicar demo en GitHub Pages → Run workflow**. Los cambios posteriores en `main` vuelven a desplegar automáticamente.
+
