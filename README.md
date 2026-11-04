@@ -1,5 +1,8 @@
 # CargoFlow
 
+[**Abrir demo pública →**](https://idrovodario16.github.io/cargoflow/)
+
+
 **Resumen técnico:** prototipo de flujos operativos e inspecciones en HTML, CSS y JavaScript. Arquitectura de aplicación estática en el navegador, sin backend ni base de datos de servidor; persiste en localStorage. Incluye configuración de etapas, validaciones e historial con datos ficticios.
 
 **Flujos operativos configurables para empezar con inspecciones y explorar nuevos sectores.**
@@ -50,7 +53,7 @@ Abre http://127.0.0.1:8000. El código del repositorio es público.
 
 Es un prototipo con datos ficticios. La evidencia es simulada; no hay carga real de archivos, backend, base de datos compartida ni cuentas de equipo. Los registros se guardan en localStorage y pueden perderse al borrar los datos del navegador.
 
-El servidor local no tiene autenticación y debe mantenerse en loopback. El acceso privado del despliegue original pertenece al proveedor de alojamiento y no se incorpora al copiar estos archivos. Cualquier despliegue remoto requiere su propio control de acceso. No publicar ni ampliar la audiencia sin autorización del propietario.
+El servidor local no tiene autenticación y debe mantenerse en loopback. El acceso privado del despliegue original pertenece al proveedor de alojamiento y no se incorpora al copiar estos archivos. La demo pública autorizada utiliza datos ficticios y almacenamiento local; no ofrece cuentas ni un espacio compartido. Un uso remoto con datos reales requiere autenticación y backend propios.
 
 ## Verificación
 
@@ -66,7 +69,7 @@ El servidor local no tiene autenticación y debe mantenerse en loopback. El acce
 
 Prototipo completo en el navegador con datos ficticios y localStorage. No requiere cuenta ni backend.
 
-**Publicación:** archivos y flujo de despliegue preparados. La URL prevista es https://idrovodario16.github.io/cargoflow/; solo estará disponible cuando GitHub Pages esté activado y el despliegue termine correctamente.
+**Demo pública:** [Abrir CargoFlow](https://idrovodario16.github.io/cargoflow/). Publicada en GitHub Pages mediante GitHub Actions.
 
 Para activarla: **Settings → Pages → Build and deployment → Source: GitHub Actions**. Después ejecuta **Actions → Publicar demo en GitHub Pages → Run workflow**. Los cambios posteriores en `main` vuelven a desplegar automáticamente.
 
