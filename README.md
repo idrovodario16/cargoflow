@@ -1,13 +1,12 @@
 # CargoFlow
 
-[**Abrir demo pública →**](https://idrovodario16.github.io/cargoflow/)
+Prototipo de flujos operativos configurables para inspecciones, alquiler de vehículos y mantenimiento técnico.
 
+**Stack:** HTML, CSS y JavaScript; persistencia en localStorage.
 
-**Resumen técnico:** prototipo de flujos operativos e inspecciones en HTML, CSS y JavaScript. Arquitectura de aplicación estática en el navegador, sin backend ni base de datos de servidor; persiste en localStorage. Incluye configuración de etapas, validaciones e historial con datos ficticios.
+**Estado:** prototipo de navegador con datos ficticios y evidencia simulada. No incluye backend, cuentas, carga real de archivos ni base compartida.
 
-**Flujos operativos configurables para empezar con inspecciones y explorar nuevos sectores.**
-
-Prototipo interactivo en español que permite probar una misma base de gestión en inspecciones de carga, alquiler de vehículos y mantenimiento técnico. Desarrollado como proyecto de portafolio de **Darío Idrovo**.
+[Demo web](https://idrovodario16.github.io/cargoflow/)
 
 ## Funcionalidades
 
@@ -41,6 +40,8 @@ Abre http://127.0.0.1:8000. El código del repositorio es público.
 
 ## Arquitectura
 
+Actualmente `dist/` contiene los archivos editables de este prototipo; no hay una cadena de compilación ni una carpeta de fuente separada. La reorganización de fuente y salida es una mejora pendiente.
+
 | Archivo | Responsabilidad |
 | --- | --- |
 | `dist/index.html` | Estructura y metadatos |
@@ -70,6 +71,3 @@ El servidor local no tiene autenticación y debe mantenerse en loopback. El acce
 Prototipo completo en el navegador con datos ficticios y localStorage. No requiere cuenta ni backend.
 
 **Demo pública:** [Abrir CargoFlow](https://idrovodario16.github.io/cargoflow/). Publicada en GitHub Pages mediante GitHub Actions.
-
-Para activarla: **Settings → Pages → Build and deployment → Source: GitHub Actions**. Después ejecuta **Actions → Publicar demo en GitHub Pages → Run workflow**. Los cambios posteriores en `main` vuelven a desplegar automáticamente.
-
